@@ -165,9 +165,6 @@ public class ColorChangeSimulation extends Application {
             this.col = col;
         }
 
-        /**
-         * Jest to metoda reprezentująca logikę działania wątku. W pętli sprawdza, czy wątek został przerwany. Następnie generuje losowe opóźnienie i usypia wątek na ten czas. Jeśli wątek nie jest wstrzymany, to na podstawie prawdopodobieństwa p zmienia kolor prostokąta na planszy.
-         */
         @Override
         public void run() {
             try {
