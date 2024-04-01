@@ -37,10 +37,6 @@ public class ColorChangeSimulation extends Application {
     private TextField kField;
     private TextField pField;
 
-    /**
-     * Ta metoda jest wywoływana przy uruchamianiu aplikacji JavaFX. Tworzy interfejs użytkownika, w tym pola tekstowe i przycisk do rozpoczęcia symulacji.
-     * @param primaryStage scena, na której wyświetlane są pola tekstowe i przycisk do rozpoczęcia symulacji
-     */
     @Override
     public void start(Stage primaryStage) {
         GridPane gridPane = new GridPane();
